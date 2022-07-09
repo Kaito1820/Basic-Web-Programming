@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--NOTE 
+    1. h1-h6 - heading
+    2. p - paragraph - dùng cho đoạn chữ dài, span - dùng cho đoạn chữ ngắn
+    3. img - image
+    4. a - anchor <mỏ neo để neo liên kết>
+    5. ul, li - unorder list <tạo list>, list item
+    6. table
+    7. input
+    8. button
+    9. div <tạo khối bao quanh các phần tử khác>
+    10. header
+    11. footer
+    12. aside 
+    13. nav - navigation - điều hướng 
+    14. main - chứa các thành phần chính
+    15. article
+    16. iframe - dùng để nhúng nguồn nào đó vào
+    17. strong, b - in đậm
+    18. em, i - in nghiêng
+ -->
+ <!-- CSS
+        1. Internal (thao tác hẳn trong file html)
+        2. External (tạo 1 file css riêng)
+        3. Inline   (dùng attribute trong file html)
+-->
+<html>
+    <!-- Comment(ctrl + /) -->
+    <!-- Phần đầu -->
+    <head>
+        <title> KaitoKuro </title>
+        <meta charset="utf-8">       
+    </head>
+    
+    <!-- Phần thân  -->
+    <body>
+        <div>
+            Xin chào các bạn!
+            <!-- Xin chào các bạn!(ctrl + / để cmt lại)  -->
+
+            <h1>Hello!!!</h1>
+            <!-- <h1 style="color: red">Hello</h1> (attribute) -->
+
+            <!-- ô gõ chữ -->
+            <input type="text">
+
+            <br> <!--xuống dòng -->
+
+            <!-- đánh tick -->
+            <input type="checkbox"> <!--vuông-->
+            <input type="radio">    <!--tròn-->
+            
+            <br>
+
+            <!-- tick 1 trong 3, name ghi gì cũng được -->
+            <input name="haha" type="radio">
+            <input name="haha" type="radio">
+            <input name="haha" type="radio">
+            
+            <br>
+            <button>Sign in</button>
+
+            <p>Mặc dù IoT mang lại khá nhiều lợi ích ấn tượng, nó cũng gặp phải những thách thức đáng kể. Dưới đây là 1 số vấn đề chính của IoT</p>
+            <span>Hello</span>
+            <img src="https://iotmakervn.github.io/iot-starter-book/images/01-intro/01.iot-concept.png" alt="IoT">
+            <br>
+            
+            <a href="https://www.youtube.com/c/F8VNOfficial/playlists">HTML tutorial(không tạo trang)</a>
+            <a href="https://www.youtube.com/c/F8VNOfficial/playlists" target= "_blank" rel="noopener noreferrer">HTML tutorial(tạo trang)</a>
+        </div>
+        <!-- NOTE
+            ul là dấu chấm
+            ol là số thứ tự 
+         -->
+        <ul>
+            <li>:v</li>
+            <li>:u</li>
+        </ul>
+
+        <table>
+            <!-- tiền tố t là chỉ table -->
+            <thead>
+                <th>STT</th>
+                <th>Tên</th>
+                <th>Địa chỉ</th>
+            </thead>
+            <!-- tr là table row -->
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Kaito</td>
+                    <td>BT</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Kaito2</td>
+                    <td>BT2</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+.contents{
+    color: white;
+    position: relative;
+    padding: 1.5rem;
+    margin: 180px 150px 100px 150px;
+    display: flex;
+    line-height: 2; 
+}
+.contents h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.text{
+    max-width: 700px;
+    margin-right: 180px;
+}
+
+.dowload_section{
+    padding: 20px 30px;
+}
+
+.btn{
+    display: flex;
+    /* margin-top: 40px; */
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon a{
+    font-size: 1.5rem;
+    color: #fff;
+    transition: all ease 0.2s;
+}
+
+.icon a:not(:last-child){
+    margin-right: 30px;
+}
+
+.icon a:hover{
+    transform: scale(1.3);
+}

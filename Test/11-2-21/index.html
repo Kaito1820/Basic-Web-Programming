@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Test/11-2-21/style.css">
+    <title>Document</title>
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" 
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+    />
+</head>
+<body>
+    <!--Practice 
+    1. Liệt kê 10 thẻ inline, 10 thẻ block và các thẻ semantic HTML5
+    2. Làm 1 vd về BEM cho block có tên là 'boy'
+    3. Hãy làm 1 vd về sự kết hợp giữa thẻ block và thẻ inline
+    4. Áp dụng kiến thức về BEM đặt tên cho UI này: https://static.collectui.com/shots/1436570/dropdown-menu-large
+    Hint: Block có tên 'dropdown'     
+-->
+<!-- 
+    1. 
+    - inline: a, b, i, em, strong, span, button, mark, br, label,...
+    - block: h1, h2, h3, h4, h5, h6, div, p, article, body, ul, li, header, footer, table,...
+    - semantic: article, aside, footer, header, main, mark, nav, section
+    2. BEM: Block Element Modifier
+    *Block: boy;
+    *Element: arm, leg, head, hair,...
+    *Modifier: short, big, small, tall,...
+    - boy__eye--big, boy__hair--short,...
+    - boy__head, boy__arm, boy__nose,...
+    - boy--tall, boy--short
+    
+ -->
+    <!-- <p><mark>3.</mark> Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>
+        Ducimus  voluptates illum maxime quas molestiae neque est iusto ab suscipit soluta debitis repudiandae,<br>
+        hic nam blanditiis doloremque architecto eos temporibus voluptatem!</p>
+    <p><i>Lorem ipsum</i> is the most popular filler text in history.</p> -->
+
+    <div class="dropdown">
+        <span class="dropdown__selected">CALL TO ACTION</span>
+        <i class="fas fa-caret-down dropdown__caret"></i>
+        <div class="dropdown__list">
+            <div class="dropdown__items">
+                <div>
+                    <ion-icon name="add-circle-outline"></ion-icon>
+                    <span class="dropdown__title title1">NEW PROJECT</span>
+                </div>
+                <div>
+                    <ion-icon name="person-outline"></ion-icon>
+                    <span class="dropdown__title title2">VIEW PROFILE</span>
+                </div>
+                <div>
+                    <ion-icon name="cog-outline"></ion-icon>
+                    <span class="dropdown__title title3">SETTINGS</span>
+                </div>
+                
+                <div>
+                    <ion-icon name="power-outline"></ion-icon>
+                    <span class="dropdown__title title4">LOG OUT</span>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+<!-- <i class="fa fa-plus dropdown__icon"></i> -->

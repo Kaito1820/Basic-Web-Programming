@@ -1,0 +1,10 @@
+.contents{
+    color: white;
+    position: relative;
+    padding: 1.5rem;
+    margin-top:50%;
+
+}
+.contents h1{
+    text-transform: uppercase;
+}

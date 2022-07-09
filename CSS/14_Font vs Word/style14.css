@@ -1,0 +1,54 @@
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 300; 
+    /* do mong cua tu */
+    font-style: italic;
+}
+
+.font {
+    line-height: 1.5; 
+    /* Khoang cach giua cac dong */
+    
+    /* text-align: center;
+    cang giua
+
+    text-align: justify;
+    cang deu 2 ben */
+
+    max-width: 300px;
+
+    letter-spacing: 1px;
+    /* khoang cach giua cac ky tu */
+
+    word-spacing: 5px;
+    /* khoang cach giua cac tu */
+
+    /* white-space: nowrap;
+    cac chu khong rot xong dong, xuat hien scroll bar */
+
+    /* overflow: hidden; 
+    an scroll bar
+
+    text-overflow: ellipsis;
+    lam xuat hien dau 3 cham */
+
+    /* display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    hien thi dau 3 cham o hang thu 3 */
+
+    word-break: break-all;
+    /* rot tum lum */
+    word-break: break-word; 
+    /* rot theo chu */
+}

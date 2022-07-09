@@ -1,0 +1,26 @@
+.pic1{
+    background-image: url(/CSS/17_Grid/asset/Boruto.png);
+}
+.pic2{
+    background-image: url(/CSS/17_Grid/asset/ig-irelia-splash.jpg);
+}
+.pic3{
+    background-image: url(/CSS/17_Grid/asset/irelia-lol-uhdpaper.com-hd-174.jpg);
+}
+.pic4{
+    background-image: url(/CSS/17_Grid/asset/Sasuke\ and\ lightning\ blade.jpg);
+}
+.pic5{
+    height: 300px;
+    background-image: url(/CSS/17_Grid/asset/thumb-1920-781724.png);
+}
+.pic{
+    width: 100%;
+    /* height: 100%; */
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    color: yellow;
+    text-align: center;
+    /* justify-content: center; */
+}

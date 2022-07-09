@@ -1,0 +1,40 @@
+html, body{
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height:100vh;
+    background-image: 
+        linear-gradient(45deg, rgba(255, 255, 0, 0.5), rgba(0, 255, 255, 0.5)), 
+        url(https://bitly.com.vn/bukjyl) ;
+    background-size: 100%; 
+    background-repeat: no-repeat; 
+    
+}
+
+/*NOTE1
+repeat-x, repeat-y: repeat theo trục
+url nào có trước thì chồng lên cái phía sau
+
+background-image: linear-gradient(degree, color1, color2);
+rgba(): tùy chỉnh thông số màu và độ mờ
+
+background-image: linear-gradient(45deg, #333, #ccc);
+background-image: url(https://bitly.com.vn/bukjyl) ; */
+/*NOTE2
+background-size: contain; lấy kích thước khít nhất có thể và không bị cắt ảnh
+background-size: cover; bao phủ luôn background của web và chấp nhận bị cắt ảnh
+background-size: 100%; set cho width, còn height thì auto
+background-repeat: no-repeat; không cho ảnh bị lặp
+background-position: trục x trục y/ top/ bottom/ top right/ center/ top 20px right 30px/.....
+background-attachment: fixed -> làm cho background cố định, ko scroll được
+*/
+/*NOTE3
+background-origin: padding-box(border-box): giống với background-clip 
+nhưng background-origin đi đôi với background-image
+*/
+/*NOTE4 shorthand
+VD: background: url(...) no-repeat center / contain 
+(phải / mới ghi đc contain hay cover....)
+*/

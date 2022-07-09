@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding</title>
+
+    <style>
+        .box{
+            width: 60px;
+            height: 60px;
+            color: #fff;
+            display: flex; 
+            align-items: center;     /*chính giữa hàng dọc*/
+            justify-content: center; /*chính giữa hàng ngang*/
+        }
+        .box1{
+            background-color: #333;
+        }
+
+        .box2{
+            background-color: orange;
+        }
+
+        .box3{
+            background-color: firebrick;
+            padding-top: 10px;
+            padding-right: 25px;
+            padding-bottom: 15px;
+            padding-left: 20px;
+            /* 4 padding above= padding: 10px 25px 15px 20px */
+        }
+    </style>
+</head>
+<body>
+    <div class = "box box1">Box 1</div>
+    <div class = "box box2">Box 2</div>
+    <div class = "box box3">Box 3</div>
+</body>
+</html>

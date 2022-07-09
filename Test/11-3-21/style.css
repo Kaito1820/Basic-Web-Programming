@@ -1,0 +1,28 @@
+/* .header{
+    
+} */
+html, body{
+    margin: 0;
+    overflow: hidden;
+}
+.box{
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+    
+}
+.header__home, .header__about,
+.header__course, .header__contact {
+    width: 75px;
+    height: 30px;
+    /* border: 3px solid #6a5af9; */
+    background-color: cyan;
+    border-radius: 20px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: none;
+
+}
+.click:active{
+    background-color: rgb(0,255,255,0.8);
+}

@@ -1,0 +1,9 @@
+:root {
+    -text--color: red;
+}
+
+h1{
+    /* -my--color : green; */
+    color: var(-text--color);
+    /* color: blue; */
+}

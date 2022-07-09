@@ -1,0 +1,22 @@
+html, body{
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    /* font-family: sans-serif;
+    color: #fff; */
+    
+    background-color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 10px dashed #ccc;
+    background-clip: content-box;
+}
+/*NOTE
+background-clip quyết định background được đổ từ ranh giới nào (border, padding, content box)   
+background-clip: border-box đổ từ border vào
+background-clip: padding-box đổ từ padding vào
+background-clip: content-box đổ từ content vào
+
+*/
