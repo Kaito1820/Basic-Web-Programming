@@ -58,7 +58,8 @@ console.log(country2.includes('Land'))    // false
 // 9. replace('string1','string2'): takes as a parameter the old substring and a new substring.
 // 10. charAt(index): Takes index and it returns the value at that index
 // 11. charCodeAt(): Takes index and it returns char code (ASCII number) of the value at that index
-// 12. indexOf(): Takes a substring and if the substring exists in a string it returns 
+// 12. indexOf(substring): Takes a substring and if the substring exists in a string it returns 
+// or indexOf(substring, vi tri bat dau tim): ap dung de tim duplicate thu 2
 // the first position of the substring if does not exist it returns -1
 // 13. lastIndexOf(): Takes a substring and if the substring exists in a string it returns the last position of the substring 
 // if it does not exist it returns -1
@@ -92,7 +93,7 @@ console.log(string4.search(/javascript/gi))  // 7
 
 //----------------------------------------------------------------------
 /* match: it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null. 
- It starts with / sign and ends with / sign. */
+It starts with / sign and ends with / sign. */
 let string5 = 'love'
 let patternOne = /love/     // with out any flag
 let patternTwo = /love/gi   // g-means to search in the whole text, i - case insensitive
