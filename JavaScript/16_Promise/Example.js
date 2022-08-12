@@ -57,7 +57,7 @@ function getUsersByIds(userIDs){
 
         setTimeout(function(){
             resolve(result);
-        });
+        },1000);
     })
 }
 getComments()
