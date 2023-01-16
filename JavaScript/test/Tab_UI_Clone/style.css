@@ -1,0 +1,67 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+
+body > div {
+    margin: 5% auto 0;
+    max-width: 720px;
+}
+
+.nav{
+    display: flex;
+    position: relative;
+}
+
+.nav-item{
+    width: auto;
+    height: auto;
+    padding: 15px 20px 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #0081C9;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 5px solid transparent;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.nav .nav-line{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #0081C9;
+    transition: all 0.2s ease;
+}
+
+.nav-item:hover{
+    opacity: 1;
+    background-color: rgb(91, 192, 248,0.15);
+    border-color: rgb(0, 129, 201,0.5)
+
+}
+.nav .active{
+    opacity: 1;
+}
+
+.pane .pane-content{
+    display: none;
+    padding: 5px 10px;
+    color : #333;
+}
+.pane .active{
+    display: block;
+}
+
